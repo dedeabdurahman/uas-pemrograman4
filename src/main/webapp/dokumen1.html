@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Belajar Hosting</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-3">
+<h5>Nama        : Dede Abdurahman</h5>
+<h5>Nim         : 4512215047</h5>
+<h5>Dokumentasi : Belajar Hosting</h5>
+</br>
+<a class="btn btn-default" href="index.html" role="button">Kembali</a>
+</div>
+ <div class="col-md-6">
+<h2 align="center">CARA HOSTING FILE DENGAN DOMAIN NAMA SENDIRI</h2>
+</br>
+<h2>CARA HOSTING FILE DENGAN DOMAIN NAMA SENDIRI</h2><br>
+		 <h3>A.Membuat webserver di openshift</h3>
+		 <p>1.Buat akun di openshift dan isikan username serta password kita</p>
+		<img src="img/1.jpg" width="350x350" title="buat akun">
+		<img src="img/2.jpg" width="150x350" title="buat akun">
+		</br></br>
+		
+		<p>2.Verifikasi email yang dikirim dari openshift</p>
+		<img src="img/3.jpg" width="400x400" title="verifikasi email">
+		</br></br>
+		
+		<p>3.Create First Application</p>
+		<img src="img/4.jpg" width="400x400" title="create aplikasi">
+		</br></br>
+		
+		<p>4.Pilih aplikasi yang akan dibuat, contohnya Jekyll</p>
+		<img src="img/8.jpg" width="400x400" title="pilih aplikasi">
+		</br></br>
+		
+		<p>5.Isi public URL dengan yang kita inginkan</p>
+		<p>misal : http://belajarhosting-dederahman.rhcloud.com</p>
+		<img src="img/9.jpg" width="400x400" title="mengisi public url">
+		<p>kemudian klik create application</p><img src="img/10.jpg" width="400x400" title="create">
+		</br></br>
+		
+		<p>6.Aplikasi sudah jadi</p>
+		<img src="img/12.jpg" width="400x400" title="aplikasi">
+		 <p>kita bisa cek dengan mengakses public url yang kita isi tadi "http://belajarhosting-dederahman.rhcloud.com</p><img src="img/13.jpg" width="400x400" title="akses url">
+		</br></br>
+		
+		<p>7.Download & Install puttygen, kemudian generate public key</p>
+		<img src="img/15.jpg" width="400x400" title="instal puttygen">
+		 </br></br>
+		 
+		<p>8.Setelah muncul tampilan generate, isi key passphrase dengan yang mudah diingat, misal "123"</p>
+		<img src="img/16.jpg" width="400x400" title="isi passphrase">
+		 </br></br>
+		
+		<p>9.klik save private key dan simpan di folder yang mudah diakses kembali</p>
+		<img src="img/17.jpg" width="400x400" title="simpan private key">
+		 </br></br>
+		
+		<p>10.Copy text yang ada di textbox public key ke ssh public key di akun openshift kita</p>
+		<img src="img/18.jpg" width="400x400" title="copy public key">
+		<p>klik "add ssh public key" di akun openshift</p>
+		<img src="img/19.jpg" width="400x400" title="klik add ssh public key">
+		 </br></br>
+		
+		<p>11.beri nama pada key nya misalnya ssh-key dan paste text yang tadi dicopy pada textbox di bawahnya</p>
+		<img src="img/20.jpg" width="400x400" title="create ssh key">
+		 </br></br>
+		
+		 <p>12.klik create untuk membuat ssh key</p>
+		<img src="img/21.jpg" width="400x400" title="add ssh key">
+		 </br></br>
+		 
+		 <p>13.setelah sukses membuat ssh key, kemudian download dan instal tortoise untuk mengclone source kode ke komputer kita</p>
+		<img src="img/23.jpg" width="400x400" title="install tortoise">
+		 </br></br>
+		 
+		  <p>14.ikuti langkahnya sampai selesai</p>
+		<img src="img/24.jpg" width="400x400" title="install tortoise">
+		 </br></br>
+		 
+		  <p>15.Setelah tortoise terinstal, buka windows explorer dan masuk ke folder dimana kita akan mengclone source kode dari openshift, lalu klik kanan dan pilih git clone</p>
+		<img src="img/25.5.jpg" width="400x400" title="clone source kode">
+		 </br></br>
+		 
+		  <p>16.Pada tampilan git clone masukkan URL dari source kode openshift dan untuk Load putty key kita browse ke file private key yang tadi kita simpan</p>
+		<img src="img/26.jpg" width="400x400" title="clone source kode">
+		 </br></br>
+		 
+		 <p>17.masukkan passphrase yang tadi kita isi yaitu "123"</p>
+		<img src="img/27.jpg" width="150x150" title="clone source kode">
+		 </br></br>
+		 
+		  <p>18.Setelah di klik OK , maka akan muncul folder belajarhosting</p>
+		<img src="img/28.5.jpg" width="400x400" title="clone source kode">
+		 </br></br></br>
+		 
+		 <h3>B.Buat aplikasi / artikel</h3>
+		<p>1.Setelah folder belajarhosting muncul kita buat artikel untuk web berbasis html</p>
+		<p>Misal kita buat file index.html</p>
+		<img src="img/index.jpg" width="400x400" title="buat artikel">
+		 </br></br></br>
+		 
+		<p>2.Copy file .html tersebut beserta file-file extensi lainnya seperti css & javascript serta file gambar ke folder belajarhosting dan replace file index yang ada di folder tersebut</p>
+		<img src="img/index2.jpg" width="400x400" title="buat artikel">
+		 </br></br>
+		
+		<p>3.Setelah itu kita deploy kembali file tersebut ke openshift</p>
+		<img src="img/29.jpg" width="400x400" title="deploy">
+		 </br></br>
+		
+		<p>4.Pada menu tortoiseGit masukkan nama dan email yang kita gunakan</p>
+		<img src="img/31.jpg" width="400x400" title="deploy">
+		 </br></br>
+		 
+		 <p>5.Pada textbox commit masukkan pesan ( apapun boleh ) misal commit 1</p>
+		<img src="img/32.jpg" width="400x400" title="commit">
+		 </br></br>
+		
+		<p>6.Setelah sukses di commit lalu kita push ke openshift</p>
+		<img src="img/33.jpg" width="400x400" title="push">
+		 </br></br>
+		
+		<p>7.Push ke master branch</p>
+		<img src="img/34.jpg" width="400x400" title="push">
+		 </br></br>
+		
+		<p>8.Push sukses, lakukan cara seperti di atas pada file css, javascript dan file-file lainnya yang akan di upload ke openshift</p>
+		<img src="img/35.jpg" width="400x400" title="push">
+		 </br></br>
+		
+		<p>9.Setelah push sukses, kita coba akses kembali aplikasi yang kita buat tadi</p>
+		<p>masuk ke akun openshift kita dan klik di aplikasi kita </p>
+		<p>atau kita bisa langsung masukkan URL kita di browser http://belajarhosting-dederahman.rhcloud.com</p>
+		<img src="img/37.jpg" width="400x400" title="push">
+		 </br></br>
+		
+		<p>Membuat Artikel berhasil.........</p>
+
+		
+		
+		<h3>C.Daftar Domain</h3>
+		<p>1.Kunjungi salah satu situs penyedia domain, misal https://idwebhost.com dan cek ketersediaan domain yang kita inginkan. Contoh "dedeabdurahman.com"</p>
+		<img src="img/a.jpg" width="400x400" title="daftar domain">
+		</br></br>
+		
+		<p>2.Apabila tersedia, beli domain yang kita inginkan dan ikuti langkah-langkahnya</p>
+		<img src="img/e.jpg" width="400x400" title="isi form">
+		</br></br>
+		
+		<p>3.Setelah selesai melakukan konfirmasi pembayaran, Login ke area klien dengan akun yang tadi di buat</p>
+		<img src="img/l.jpg" width="400x400" title="login">
+		</br></br>
+		
+		<p>4.Untuk mengarahkan domain kita ke openshift kita harus mengelola dns di domain kita</p>
+		<p>Caranya masuk ke menu domain dan manage nameserver</p>
+		<img src="img/s.jpg" width="400x400" title="manage nameserver">
+		</br></br>
+		
+		<p>5.pilih menu alat pengelolaan dan pilih kelola dns</p>
+		<img src="img/q.jpg" width="400x400" title="kelola dns">
+		</br></br>
+		
+		<p>6.tambah kolom record dengan jenis CName dan masukkan url kita di openshift "http://belajarhosting-dederahman.rhcloud.com" dan simpan perubahan</p>
+		<img src="img/r.jpg" width="400x400" title="tambah record dns">
+		</br></br>
+		
+		<p>7.Konfigurasi virtual host</p>
+		<p>Pada menu new alias kiat masukkan domain name kita "www.dedeabdurahman.com"</p>
+		<img src="img/p.jpg" width="400x400" title="virtual host">
+		</br></br>
+		
+		
+		<p>8.tunggu beberapa lama dan coba akses alamat domain kita di browser yaitu "dedeabdurahman.com"</p>
+		<img src="img/t.jpg" width="400x400" title="akses domain">
+		</br></br>
+		<h5>Dan voila.....</h5>
+		<h5>Web kita sudah bisa diakses lewat domain name sendiri.......</h5>
+</div>
+</div>	
+</div>	
+</body>
+</html>
