@@ -17,10 +17,10 @@
 </thead>
 <tbody class="table table-striped table-hover">
 <tr>
-<td align="center">1</td><td>Matematika Diskrit</td><td align="center">6</td>
+<td align="center">1</td><td>Pemrograman Java Servlet</td><td align="center">6</td>
 </tr>
 <tr>
-<td align="center">2</td><td>RPL</td><td align="center">4</td>
+<td align="center">2</td><td>Rekayasa Perangkat Lunak</td><td align="center">4</td>
 </tr>
 <tr>
 <td align="center">3</td><td>Jaringan Komputer</td><td align="center">9</td>

@@ -11,24 +11,23 @@
  <div class="col-md-6">
 <h2 align="center">Aplikasi Perpustakaan <small><small>Universitas Pancasila</small></small></h2>
 </br>
-<h3 align="center"> Form Pinjam</h3>
-<!--table class="table table-bordered">
-<thead>
-<tr><th>kode Buku</th><th>Nama Buku</th><th>Jumlah Dipinjam</th></tr>
-</thead>
-<tbody class="table table-striped table-hover">
-<tr>
-<td align="center">1</td><td>Matematika Diskrit</td><td align="center">6</td>
-</tr>
-<tr>
-<td align="center">2</td><td>RPL</td><td align="center">4</td>
-</tr>
-<tr>
-<td align="center">3</td><td>Jaringan Komputer</td><td align="center">9</td>
-</tr>
-</tbody>
+<h3 align="center"> Form Pinjam Buku</h3>
+</br>
+<form action="#">
+<table class="table table-striped">
+<tr><td><select name="namaBuku" id="namaBuku">
+		<option value='P4'>Pemrograman Java Servlet</option>
+		<option value='RPL'>Rekayasa Perangkat Lunak</option>
+		<option value='Jarkom'>Jaringan Komputer</option>
+		</select></td></tr>
+<tr><td>Jumlah Buku</td><td><input type="number" class="form-control" id="jumlah" name="jumlah" placeholder="jumlah"></td></tr>
+<tr><td>Peminjam</td><td><input type="text" class="form-control" id="peminjam" name="peminjam" placeholder="Nama peminjam"></td></tr>
+<tr><td>Tanggal Pinjam</td><td><input type="date" class="form-control" id="dari" name="dari"></td></tr>
+<tr><td>Kembali</td><td><input type="date" class="form-control" id="sampai" name="sampai"></td></tr>
 </table>
-<a class="btn btn-default" href="#" role="button">Kembali</a-->
+</br>
+<button type="submit" class="btn btn-success">Pinjam</button>
+      </form>
 </div>
 </div>	
 </div>	

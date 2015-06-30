@@ -11,24 +11,16 @@
  <div class="col-md-6">
 <h2 align="center">Aplikasi Perpustakaan <small><small>Universitas Pancasila</small></small></h2>
 </br>
-<h3 align="center"> Form Tambah Item</h3>
-<!--table class="table table-bordered">
-<thead>
-<tr><th>kode Buku</th><th>Nama Buku</th><th>Jumlah Dipinjam</th></tr>
-</thead>
-<tbody class="table table-striped table-hover">
-<tr>
-<td align="center">1</td><td>Matematika Diskrit</td><td align="center">6</td>
-</tr>
-<tr>
-<td align="center">2</td><td>RPL</td><td align="center">4</td>
-</tr>
-<tr>
-<td align="center">3</td><td>Jaringan Komputer</td><td align="center">9</td>
-</tr>
-</tbody>
+<h3 align="center"> Form Tambah Item Buku</h3>
+
+<form action="#">
+<table class="table table-stripped">
+<tr><td>Nama Buku</td><td><input type="text" name="nama"/></td></tr>
+<tr><td>Jumlah Buku</td><td><input type="number" name="stok"/></td></tr>
 </table>
-<a class="btn btn-default" href="#" role="button">Kembali</a-->
+<button type="submit" class="btn btn-success">Tambah</button>
+</form>
+
 </div>
 </div>	
 </div>	
