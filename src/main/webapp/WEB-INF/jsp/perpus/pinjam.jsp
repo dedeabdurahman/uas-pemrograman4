@@ -15,7 +15,7 @@
 </br>
 <form action="#">
 <table class="table table-striped">
-<tr><td><select name="namaBuku" id="namaBuku">
+<tr><td>Nama Buku</td><td><select name="namaBuku" id="namaBuku">
 		<option value='P4'>Pemrograman Java Servlet</option>
 		<option value='RPL'>Rekayasa Perangkat Lunak</option>
 		<option value='Jarkom'>Jaringan Komputer</option>
